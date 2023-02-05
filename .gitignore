@@ -1,0 +1,8 @@
+[Bb]in/
+[Oo]bj/
+.vs/
+*.suo
+*.user
+/Assignment/app.db
+/Assignment/app.db-shm
+/Assignment/app.db-wal

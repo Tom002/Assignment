@@ -1,0 +1,28 @@
+root = true
+
+[*.cs]
+indent_size = 4
+indent_style = tab
+tab_width = 4
+end_of_line = crlf
+insert_final_newline = true
+
+dotnet_style_qualification_for_event = true
+dotnet_style_qualification_for_field = false
+dotnet_style_qualification_for_method = true
+dotnet_style_qualification_for_property = true
+csharp_space_after_keywords_in_control_flow_statements = false
+csharp_space_between_parentheses = control_flow_statements
+
+dotnet_naming_rule.private_or_internal_field_should_be_underscore.severity = suggestion
+dotnet_naming_rule.private_or_internal_field_should_be_underscore.symbols = private_or_internal_field
+dotnet_naming_rule.private_or_internal_field_should_be_underscore.style = underscore
+
+dotnet_naming_symbols.private_or_internal_field.applicable_kinds = field
+dotnet_naming_symbols.private_or_internal_field.applicable_accessibilities = internal, private, private_protected
+dotnet_naming_symbols.private_or_internal_field.required_modifiers = 
+
+dotnet_naming_style.underscore.required_prefix = _
+dotnet_naming_style.underscore.required_suffix = 
+dotnet_naming_style.underscore.word_separator = 
+dotnet_naming_style.underscore.capitalization = camel_case
